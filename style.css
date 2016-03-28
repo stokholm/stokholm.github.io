@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  width: 640px;
+}
+
+div.links {
+  display: table;
+  table-layout: fixed;
+  margin: 40px 10px;
+  width: 100%;
+}
+
+div.links span {
+  display: table-cell;
+  font: normal normal normal 18pt/normal Roboto;
+  text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+  display: inline-block;
+  background-color: gray;
+  border: 2px solid dimgray;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+}
